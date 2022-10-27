@@ -79,3 +79,10 @@ body {
 .gray {
   background-color: #2a2a2a;
 }
+
+@media (max-height: 480px) {
+  .tab.open h3 {
+    opacity: 0;
+    transition: none;
+  }
+}
