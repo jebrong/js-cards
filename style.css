@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #eaeaea;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,6 @@ body {
   margin: 2px;
   width: 3vw;
   border-radius: 0.5rem;
-
   transition: flex 0.75s ease-in;
   animation: transitionIn 0.5s;
 }
@@ -43,6 +43,7 @@ body {
 
 .tab h3 {
   opacity: 0;
+  width: 30vw;
 }
 
 .tab.open {
@@ -56,6 +57,7 @@ body {
   font-size: 2rem;
   margin: 1.5rem;
   opacity: 1;
+  transition: opacity 0.8s ease-in 0.2s;
 }
 
 .blue {
