@@ -41,19 +41,21 @@ body {
   }
 }
 
+.tab h3 {
+  opacity: 0;
+}
+
 .tab.open {
   flex: 1;
   display: flex;
   flex-direction: column-reverse;
+  opacity: 1;
 }
 
 .tab.open h3 {
   font-size: 2rem;
   margin: 1.5rem;
-}
-
-.tab.close h3 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .blue {
